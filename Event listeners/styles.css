@@ -26,7 +26,7 @@ h2 {
   height: 15rem;
 }
 .examples,
-.enter {
+.enter-1, .enter-2, .enter-3 {
   border: 2px solid white;
   border-radius: 10px;
 }
@@ -36,7 +36,7 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-.enter{
+.enter-1, .enter-2, .enter-3{
   font-size:1.3rem;
   color:white;
   background-color:black;
