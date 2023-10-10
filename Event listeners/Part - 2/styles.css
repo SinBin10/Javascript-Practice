@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-heading {
+  font-size: 3rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+.container {
+  display: flex;
+  padding: 0 3rem;
+}
+.boxes {
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.reveal-btn {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+}
+.hide-btn {
+  text-align: center;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  line-height: 1.5;
+}
