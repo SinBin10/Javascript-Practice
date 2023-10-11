@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:black;
+    color:white;
+    border: 0.8rem solid white;
+    font-size: 2rem;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+}
+.box-2{
+    border: 0.3rem solid white;
+    margin: 2.5rem 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box-1{
+    border: 0.2rem solid white;
+    padding: 2rem;
+    margin: 0 2.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.btn{
+    background-color: black;
+    color:white;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
