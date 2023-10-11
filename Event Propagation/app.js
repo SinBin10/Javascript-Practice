@@ -1,16 +1,16 @@
 window.addEventListener('click', function() {
     console.log("Window");
-},true);
+},false);
 document.addEventListener('click', function() {
     console.log("Document");
-}, true);
+}, false);
 document.querySelector('.box-2').addEventListener('click', function(e) {
     //e.stopPropagation();
     console.log("Box-2");
-}, true);
+}, false);
 document.querySelector('.box-1').addEventListener('click', function() {
     console.log("Box-1");
-}, true);
+}, false);
 document.querySelector('.btn').addEventListener('click', function(e) {
     console.log(e.target.innerText = "Clicked");
-}, true);
+}, false);
