@@ -20,20 +20,29 @@ body {
 .container {
   display: flex;
   padding: 0 3rem;
+  height: 14.5rem;
 }
 .boxes {
   border: 2px solid white;
   border-radius: 10px;
   font-size: 1.2rem;
 }
-.reveal-btn {
+.reveal {
   background-color: black;
   color: white;
-  padding: 1.5rem;
+  width:100%;
 }
-.hide-btn {
+.hide {
   text-align: center;
   padding: 1rem;
   margin-left: 0.5rem;
   line-height: 1.5;
+  background-color: black;
+}
+
+.hide-btn{
+  display:none;
+}
+.reveal-btn{
+  display:block;
 }
