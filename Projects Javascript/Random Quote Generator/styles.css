@@ -41,6 +41,7 @@ body {
 }
 .quote{
   line-height: 1.5;
+  height:108px;
 }
 .person{
   margin: 1rem 0;
