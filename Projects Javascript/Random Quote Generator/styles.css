@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("Random_Quote_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-size:1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    width: 35rem;
+}
+.main-heading{
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    padding: 0.3rem 0;
+    margin: 0 2rem 1rem 2rem;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+.card-body{
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.quote{
+  line-height: 1.5;
+}
+.person{
+  padding: 1rem 0;
+  text-transform: uppercase;
+  color:rgb(209, 17, 17);
+}
+.btn{
+  background-color: black;
+  color: white;
+  font-size:1.2rem;
+  padding: 0.5rem 1rem;
+  border:0;
+  border-radius: 5px;
+}
+
