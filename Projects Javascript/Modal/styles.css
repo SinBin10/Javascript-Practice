@@ -7,3 +7,59 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url("project-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+#modal-button {
+  position: absolute;
+  left: 10%;
+  top: 70%;
+  font-size: 2rem;
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+  transition: 0.5s;
+}
+#modal-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#modal-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12.5rem;
+  height: 6.5rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+
+  animation-name: animatemodal;
+  animation-duration: .4s;
+}
+#close-btn{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#close-btn:hover{
+    color:red;
+    cursor: pointer;
+}
+#modal-container{
+    /* display:none; */
+}
