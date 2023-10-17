@@ -29,19 +29,29 @@ body{
 .qa{
     padding-top: 2.5rem;
 }
-.questions{
+.questions-1, .questions-2, .questions-3{
     display:flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
     padding-bottom: 0.75rem;
     margin-bottom: 0.75rem;
     align-items: center;
+    cursor: pointer;
 }
 .toggle{
     font-size: 1.5rem;
 }
-.answers{
+.answers-1{
     display:none;
     line-height: 1.5;
 }
+.answers-2{
+    display:none;
+    line-height: 1.5;
+}
+.answers-3{
+    display:none;
+    line-height: 1.5;
+}
+
 
