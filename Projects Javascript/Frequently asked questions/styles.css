@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(project_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #fff;
+    width: 40rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 30px;
+}
+.main-heading{
+    text-align: center;
+}
+.qa{
+    padding-top: 2.5rem;
+}
+.questions{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    align-items: center;
+}
+.toggle{
+    font-size: 1.5rem;
+}
+.answers{
+    display:none;
+    line-height: 1.5;
+}
+
