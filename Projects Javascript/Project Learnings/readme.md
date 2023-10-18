@@ -51,6 +51,9 @@ Transition does not work with display:none; (100%  sure about this)
 
 9) if you want to apply display: none; to a div remember you can also add display none to its parent container.
 
+10) Remember a small content like '+' toggle button does not need to inserted in the html it can be inserted by ::after pseudo selector.
 
+11) When giving spaces and padding make sure to give element their spaces by selecting them in the styles file. Don't use other elements to give them spacing.
 
-
+12) If you want to apply a expanding transition to div DONT USE DISPLAY NONE AND AND THEN BLOCK TRANSITION DOES NOT WORK ON DISPLAY PROPERTIES. Instead give the div a height of 0 and hide the overflow and then use the toggle function in javascript which will toggle a class with height 150px(for example) and height 0 , overflow hidden.
+NOTE:- REMEMBER TO ALSO SPECIFY THE CLASS WITH HEIGHT 0 WITH THE ACTIVE CLASS FOR THE TRANSITION TO WORK AND THE TEXT TO BE DISPLAYED.
