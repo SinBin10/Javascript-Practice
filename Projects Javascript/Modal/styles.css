@@ -20,7 +20,7 @@ body {
   left: 10%;
   top: 70%;
   font-size: 2rem;
-  background-color: inherit;
+  background-color: transparent;
   color: white;
   border: 2px solid white;
   padding: 1rem 1.5rem;
@@ -41,6 +41,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
+  align-items: center;
   border-radius: 5px;
   font-size: 1.5rem;
   padding: 1.3rem 1rem;
@@ -48,29 +49,24 @@ body {
   animation-name: animatemodal;
   animation-duration: 0.4s;
 }
-#modal {
-  margin-right: 1rem;
-  align-self: center;
-}
+
 #close-btn {
   font-size: 3rem;
   font-weight: bold;
   color: red;
   cursor: pointer;
+  margin-left: 0.8rem;
 }
 
-#modal-container {
-  display: none;
-  position: fixed;
-  z-index: 1;
-}
 .backdrop{
   display:none;
+  position:fixed;
   top:0;
   left:0;
+  width:100%;
   height:100%;
+  z-index: 1;
   background-color: rgba(0,0,0,0.2);
-  transition: 0.4s;
 }
 
 
@@ -78,7 +74,7 @@ body {
 
 @keyframes animatemodal {
   from {
-    top: -300px;
+    top: 0px;
     opacity: 0;
   }
   to {
