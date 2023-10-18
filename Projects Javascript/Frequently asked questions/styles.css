@@ -20,38 +20,27 @@ body{
 .container{
     background-color: #fff;
     width: 40rem;
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem;
     border-radius: 30px;
 }
 .main-heading{
     text-align: center;
+    padding: 1rem 0 1.5rem 0;
 }
-.qa{
-    padding-top: 2.5rem;
-}
-.questions-1, .questions-2, .questions-3{
-    display:flex;
-    justify-content: space-between;
+.questions{
     border-bottom: 1px solid black;
-    padding-bottom: 0.75rem;
-    margin-bottom: 0.75rem;
-    align-items: center;
+    padding: 0.75rem 0;
     cursor: pointer;
 }
-.toggle{
-    font-size: 1.5rem;
-}
-.answers-1{
-    display:none;
+.answers{
+    padding-top: 0.75rem;
     line-height: 1.5;
-}
-.answers-2{
-    display:none;
-    line-height: 1.5;
-}
-.answers-3{
-    display:none;
-    line-height: 1.5;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
 }
 
+.active .answers{
+    height: 90px;
+}
 
