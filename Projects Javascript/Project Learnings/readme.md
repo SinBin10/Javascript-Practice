@@ -14,6 +14,8 @@ You can change its value by
 arr[index].key;
 
 4) If you want to position a div with respect to a container(can be body) give the parent container position: relative; and give position: absolute; to the container being positioned.
+Absolute positioning takes place with respect to the parent container
+Fixed positioning takes place with respect to the viewport.
 
 after that you can position it by using left: 10%, right, etc.
 
@@ -45,6 +47,10 @@ After that use keyframes like the below example.
 }
 
 8) IMPORTANT:-
-Transition does not work with display:none; (unsure about this...)
+Transition does not work with display:none; (100%  sure about this)
+
+9) if you want to apply display: none; to a div remember you can also add display none to its parent container.
+
+
 
 
