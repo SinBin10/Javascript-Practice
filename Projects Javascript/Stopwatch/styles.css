@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url('stopwatch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+.timer{
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+button i{
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+}
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: yellow;
+}
+#reset{
+    background-color: red;
+}
